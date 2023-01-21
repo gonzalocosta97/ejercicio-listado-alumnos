@@ -15,7 +15,7 @@ public class Main {
 		
 		int cantidadAlumnos = entrada.nextInt();
 		
-		while(cantidadAlumnos < 0 || cantidadAlumnos > 20) {
+		while(cantidadAlumnos < 1 || cantidadAlumnos > 20) {
 			
 			System.out.println("\nCantidad inválida. Ingrese la cantidad de alumnos nuevamente:");
 			
